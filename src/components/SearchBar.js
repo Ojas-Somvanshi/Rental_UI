@@ -7,7 +7,7 @@ export default function SearchBar() {
         <select className="border p-3 rounded-md text-black">
           <option value="bike">Bike</option>
           <option value="car">Car</option>
-          <option value="car">Scooty</option>
+          <option value="Scooty">Scooty</option>
         </select>
 
         {/* Location */}

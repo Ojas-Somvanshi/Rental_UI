@@ -45,9 +45,12 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <SearchBar />
 
       <section className="py-16 px-8 bg-gray-50">
+          {/* Search Bar */}
+       <div className="mb-12">
+       <SearchBar />
+       </div>
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 text-gray-900">
           Available Vehicles
